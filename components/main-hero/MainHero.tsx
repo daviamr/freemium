@@ -10,8 +10,8 @@ export function MainHero() {
     <div className="bg-[#1A311E] py-10 lg:pb-0">
       <DefaultLayout className="flex justify-center gap-64">
         <div>
-          <p className="text-2xl font-semibold text-[#68CAB2]">Revendedor de Maquininha</p>
-          <h1 className="text-4xl font-semibold max-w-130 mt-2 text-white">
+          <p className="text-2xl font-extrabold text-[#68CAB2] underline">Revendedor de Maquininha</p>
+          <h1 className="text-4xl font-extrabold max-w-130 mt-2 text-white">
             Ganhe <span className="text-[#32E001]">renda extra</span> com indicação de maquininhas
           </h1>
 
@@ -31,7 +31,7 @@ export function MainHero() {
               <p className="text-sm">Comissão de até</p>
               <div className="flex items-start">
                 <span>R$</span>
-                <span className="text-5xl">
+                <span className="text-5xl text-[#68CAB2]">
                   590
                 </span>
               </div>
@@ -39,7 +39,7 @@ export function MainHero() {
             </div>
           </div>
           <Button 
-            className="w-full max-w-75 bg-[#7A43BB] rounded-full text-[18px] font-semibold py-7 mt-7 cursor-pointer hover:bg-[#7A43BB]/80"
+            className="w-full max-w-75 bg-[#7A43BB] rounded-full text-[18px] font-extrabold py-7 mt-7 cursor-pointer hover:bg-[#7A43BB]/80"
             onClick={() => router.push("/redirect")}>
             Quero começar
           </Button>

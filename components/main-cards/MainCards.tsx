@@ -28,7 +28,7 @@ export function MainCards() {
       {cards.map(i => (
         <div
           key={i.title}
-          className="min-w-0 w-full max-w-100 bg-white p-6 py-10 rounded-sm sm:w-auto">
+          className="text-left min-w-0 w-full max-w-100 bg-white p-6 py-10 rounded-sm sm:w-auto">
           <div className="border-2 rounded-full p-2 w-max mb-4">{i.icon}</div>
           <p className="text-2xl font-semibold mb-2">{i.title}</p>
           <div>{i.description}</div>
